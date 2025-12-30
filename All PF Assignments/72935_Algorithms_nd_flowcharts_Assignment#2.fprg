@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Afraz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-02 10:48:01 PM"/>
+        <attribute name="created" value="QWZyYXo7REVTS1RPUC1BU0Q3MEM2OzIwMjUtMTAtMDI7MTA6NDA6MzggUE07Mjc5NQ=="/>
+        <attribute name="edited" value="QWZyYXo7REVTS1RPUC1BU0Q3MEM2OzIwMjUtMTAtMDI7MTA6NDg6MDEgUE07MTsyOTAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Enter Radius&quot;" newline="True"/>
+            <declare name="rad" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="cir" type="Real" array="False" size=""/>
+            <input variable="rad"/>
+            <assign variable="area" expression="3.14*rad^2"/>
+            <assign variable="cir" expression="2*3.14*rad"/>
+            <output expression="&quot;Area is &quot; &amp;area" newline="True"/>
+            <output expression="&quot;Circumference is &quot; &amp;cir" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
